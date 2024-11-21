@@ -197,6 +197,18 @@ import java.util.Scanner;
             String resposta13 = q13.leiaResposta();
             q13.isCorreta(resposta13);
 
+            //PROXIMA QUESTAO
+
+            Questao q14 = new Questao();
+            q14.pergunta = "Em Monstros S.A., qual é o nome do personagem principal?";
+            q14.opcaoA = "A) Mike";
+            q14.opcaoB = "B) Sulley";
+            q14.opcaoC = "C) Randall";
+            q14.opcaoD = "D) Boo";
+            q14.opcaoE = "E) Waternoose";
+            q14.correta = "B) Sulley";
+
+
 
 
 
