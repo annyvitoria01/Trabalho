@@ -193,6 +193,12 @@ import java.util.Scanner;
             q13.opcaoE = "E) Waternoose";
             q13.correta = "B) Sulley";
 
+            q13.escrevaQuestao();
+            String resposta13 = q13.leiaResposta();
+            q13.isCorreta(resposta13);
+
+
+
 
 
 
