@@ -79,7 +79,7 @@ import java.util.Scanner;
             //proxima questao
 
             Questao q6 = new Questao();
-            q6.pergunta = "Em \"Procurando Nemo\", qual é o nome da peixe que tem perda de memória recente?";
+            q6.pergunta = "Em Procurando Nemo, qual é o nome da peixe que tem perda de memória recente?";
             q6.opcaoA = "A) Dory";
             q6.opcaoB = "B) Marlin";
             q6.opcaoC = "C) Crush";
@@ -94,7 +94,7 @@ import java.util.Scanner;
             //proxima quetao
 
             Questao q7 = new Questao();
-            q7.pergunta = "Qual é o nome do ratinho chefe em \"Ratatouille\"?";
+            q7.pergunta = "Qual é o nome do ratinho chefe em Ratatouille?";
             q7.opcaoA = "A) Linguini";
             q7.opcaoB = "B) Remy";
             q7.opcaoC = "C) Gusteau";
@@ -124,7 +124,7 @@ import java.util.Scanner;
             //PROXIMA QUESTAO
 
             Questao q9 = new Questao();
-            q9.pergunta = "Qual é o nome do dragão em \"Mulan\"?";
+            q9.pergunta = "Qual é o nome do dragão em Mulan?";
             q9.opcaoA = "A) Smaug";
             q9.opcaoB = "B) Mushu";
             q9.opcaoC = "C) Elliot";
@@ -170,13 +170,13 @@ import java.util.Scanner;
             //PROXIMA QUESTAO
 
             Questao q12 = new Questao();
-            q12.pergunta = "";
-            q12.opcaoA = "";
-            q12.opcaoB = "";
-            q12.opcaoC = "";
-            q12.opcaoD = "";
-            q12.opcaoE = "";
-            q12.correta = "";
+            q12.pergunta = "Qual é o nome da princesa que dorme por 100 anos em A Bela Adormecida?";
+            q12.opcaoA = "A) Rapunzel";
+            q12.opcaoB = "B) Ariel";
+            q12.opcaoC = "C) Aurora";
+            q12.opcaoD = "D) Cinderela";
+            q12.opcaoE = "E) Bela";
+            q12.correta = "C";
 
             q12.escrevaQuestao();
             String resposta12 = q12.leiaResposta();
@@ -185,13 +185,13 @@ import java.util.Scanner;
             //PROXIMA QUESTAO
 
             Questao q13 = new Questao();
-            q13.pergunta = "";
-            q13.opcaoA = "";
-            q13.opcaoB = "";
-            q13.opcaoC = "";
-            q13.opcaoD = "";
-            q13.opcaoE = "";
-            q13.correta = "";
+            q13.pergunta = "Em Monstros S.A., qual é o nome do personagem principal?";
+            q13.opcaoA = "A) Mike";
+            q13.opcaoB = "B) Sulley";
+            q13.opcaoC = "C) Randall";
+            q13.opcaoD = "D) Boo";
+            q13.opcaoE = "E) Waternoose";
+            q13.correta = "B) Sulley";
 
 
 
