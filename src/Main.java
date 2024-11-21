@@ -200,13 +200,19 @@ import java.util.Scanner;
             //PROXIMA QUESTAO
 
             Questao q14 = new Questao();
-            q14.pergunta = "Em Monstros S.A., qual é o nome do personagem principal?";
-            q14.opcaoA = "A) Mike";
-            q14.opcaoB = "B) Sulley";
-            q14.opcaoC = "C) Randall";
-            q14.opcaoD = "D) Boo";
-            q14.opcaoE = "E) Waternoose";
-            q14.correta = "B) Sulley";
+            q14.pergunta = "Em Hércules, quem é o mentor de Hércules?";
+            q14.opcaoA = "A) Zeus";
+            q14.opcaoB = "B) Hades";
+            q14.opcaoC = "C) Filoctetes";
+            q14.opcaoD = "D) Atena";
+            q14.opcaoE = "E) Héracles";
+            q14.correta = "C) Filoctetes";
+
+            q14.escrevaQuestao();
+            String resposta14 = q14.leiaResposta();
+            q14.isCorreta(resposta14);
+
+            //PROXIMA QUESTAO
 
 
 
