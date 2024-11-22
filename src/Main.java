@@ -66,7 +66,9 @@ import java.util.Scanner;
 
             q4.escrevaQuestao();
             String resposta4 = q4.leiaResposta();
-            q4.isCorreta(resposta4);
+            if (q4.isCorreta(resposta)) {
+                cont++;
+            }
 
             //proxima questao
 
@@ -81,7 +83,9 @@ import java.util.Scanner;
 
             q5.escrevaQuestao();
             String resposta5 = q5.leiaResposta();
-            q5.isCorreta(resposta5);
+            if (q5.isCorreta(resposta)) {
+                cont++;
+            }
 
             //proxima questao
 
@@ -96,7 +100,9 @@ import java.util.Scanner;
 
             q6.escrevaQuestao();
             String resposta6 = q6.leiaResposta();
-            q6.isCorreta(resposta6);
+            if (q6.isCorreta(resposta)) {
+                cont++;
+            }
 
             //proxima quetao
 
