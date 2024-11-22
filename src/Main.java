@@ -214,6 +214,20 @@ import java.util.Scanner;
 
             //PROXIMA QUESTAO
 
+            Questao q15 = new Questao();
+            q15.pergunta = "Em Zootopia, qual é o nome da coelha policial?";
+            q15.opcaoA = "A) Judy Hopps";
+            q15.opcaoB = "B) Dory";
+            q15.opcaoC = "C) Elsa";
+            q15.opcaoD = "D) Anna";
+            q15.opcaoE = "E) Bellwether";
+            q15.correta = "CA) Judy Hopps";
+
+            q15.escrevaQuestao();
+            String resposta15 = q15.leiaResposta();
+            q15.isCorreta(resposta15);
+
+
 
 
 
