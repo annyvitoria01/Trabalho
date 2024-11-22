@@ -1,6 +1,7 @@
 import java.util.Scanner;
     public class Main {
         public static void main(String[] args) {
+            int cont=0;
             Scanner scanner = new Scanner(System.in);
 
             Questao q1 = new Questao();
@@ -14,7 +15,9 @@ import java.util.Scanner;
 
             q1.escrevaQuestao();
             String resposta = q1.leiaResposta();
-            q1.isCorreta(resposta);
+            if (q1.isCorreta(resposta)) {
+                cont++;
+            }
 
             //proxima questao
 
@@ -29,7 +32,9 @@ import java.util.Scanner;
 
             q2.escrevaQuestao();
             String resposta2 = q2.leiaResposta();
-            q2.isCorreta(resposta2);
+            if (q2.isCorreta(resposta)) {
+                cont++;
+            }
 
             //proxima questao
 
@@ -44,7 +49,9 @@ import java.util.Scanner;
 
             q3.escrevaQuestao();
             String resposta3 = q3.leiaResposta();
-            q3.isCorreta(resposta3);
+            if (q3.isCorreta(resposta)) {
+                cont++;
+            }
 
             //proxima questao
 
