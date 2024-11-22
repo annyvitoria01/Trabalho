@@ -117,7 +117,9 @@ import java.util.Scanner;
 
             q7.escrevaQuestao();
             String resposta7 = q7.leiaResposta();
-            q7.isCorreta(resposta7);
+            if (q7.isCorreta(resposta)) {
+                cont++;
+            };
 
             //PROXIMA QUESTAO
 
@@ -132,7 +134,9 @@ import java.util.Scanner;
 
             q8.escrevaQuestao();
             String resposta8 = q8.leiaResposta();
-            q8.isCorreta(resposta8);
+            if (q8.isCorreta(resposta)) {
+                cont++;
+            }
 
             //PROXIMA QUESTAO
 
@@ -147,7 +151,9 @@ import java.util.Scanner;
 
             q9.escrevaQuestao();
             String resposta9 = q9.leiaResposta();
-            q9.isCorreta(resposta9);
+            if (q9.isCorreta(resposta)) {
+                cont++;
+            }
 
             //PROXIMA QUESTAO
 
@@ -162,7 +168,9 @@ import java.util.Scanner;
 
             q10.escrevaQuestao();
             String resposta10 = q10.leiaResposta();
-            q10.isCorreta(resposta10);
+            if (q10.isCorreta(resposta)) {
+                cont++;
+            }
 
             //PROXIMA QUESTAO
 
@@ -178,7 +186,9 @@ import java.util.Scanner;
 
             q11.escrevaQuestao();
             String resposta11 = q11.leiaResposta();
-            q11.isCorreta(resposta11);
+            if (q11.isCorreta(resposta)) {
+                cont++;
+            }
 
             //PROXIMA QUESTAO
 
@@ -193,8 +203,9 @@ import java.util.Scanner;
 
             q12.escrevaQuestao();
             String resposta12 = q12.leiaResposta();
-            q12.isCorreta(resposta12);
-
+            if (q12.isCorreta(resposta)) {
+                cont++;
+            }
             //PROXIMA QUESTAO
 
             Questao q13 = new Questao();
@@ -208,7 +219,9 @@ import java.util.Scanner;
 
             q13.escrevaQuestao();
             String resposta13 = q13.leiaResposta();
-            q13.isCorreta(resposta13);
+            if (q13.isCorreta(resposta)) {
+                cont++;
+            }
 
             //PROXIMA QUESTAO
 
@@ -223,7 +236,9 @@ import java.util.Scanner;
 
             q14.escrevaQuestao();
             String resposta14 = q14.leiaResposta();
-            q14.isCorreta(resposta14);
+            if (q14.isCorreta(resposta)) {
+                cont++;
+            }
 
             //PROXIMA QUESTAO
 
@@ -234,11 +249,17 @@ import java.util.Scanner;
             q15.opcaoC = "C) Elsa";
             q15.opcaoD = "D) Anna";
             q15.opcaoE = "E) Bellwether";
-            q15.correta = "CA) Judy Hopps";
+            q15.correta = "A) Judy Hopps";
 
             q15.escrevaQuestao();
             String resposta15 = q15.leiaResposta();
-            q15.isCorreta(resposta15);
+            if (q15.isCorreta(resposta)) {
+                cont++;
+            }
+
+            double porcetagem= ((double)cont / 15.0) * 100;
+            System.out.println("voce acertou "+porcetagem+"%");
+            System.out.println("Você acertou"  +cont+"De 15 questões");
 
 
 
