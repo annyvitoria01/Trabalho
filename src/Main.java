@@ -14,8 +14,8 @@ import java.util.Scanner;
             q1.correta = "B";
 
             q1.escrevaQuestao();
-            String resposta = q1.leiaResposta();
-            if (q1.isCorreta(resposta)) {
+            String resposta1 = q1.leiaResposta();
+            if (q1.isCorreta(resposta1.trim())) {
                 cont++;
             }
 
@@ -32,7 +32,7 @@ import java.util.Scanner;
 
             q2.escrevaQuestao();
             String resposta2 = q2.leiaResposta();
-            if (q2.isCorreta(resposta)) {
+            if (q2.isCorreta(resposta2.trim())) {
                 cont++;
             }
 
@@ -49,7 +49,7 @@ import java.util.Scanner;
 
             q3.escrevaQuestao();
             String resposta3 = q3.leiaResposta();
-            if (q3.isCorreta(resposta)) {
+            if (q3.isCorreta(resposta3.trim())) {
                 cont++;
             }
 
@@ -66,7 +66,7 @@ import java.util.Scanner;
 
             q4.escrevaQuestao();
             String resposta4 = q4.leiaResposta();
-            if (q4.isCorreta(resposta)) {
+            if (q4.isCorreta(resposta4.trim())) {
                 cont++;
             }
 
@@ -83,7 +83,7 @@ import java.util.Scanner;
 
             q5.escrevaQuestao();
             String resposta5 = q5.leiaResposta();
-            if (q5.isCorreta(resposta)) {
+            if (q5.isCorreta(resposta5.trim())) {
                 cont++;
             }
 
@@ -100,7 +100,7 @@ import java.util.Scanner;
 
             q6.escrevaQuestao();
             String resposta6 = q6.leiaResposta();
-            if (q6.isCorreta(resposta)) {
+            if (q6.isCorreta(resposta6.trim())) {
                 cont++;
             }
 
@@ -117,7 +117,7 @@ import java.util.Scanner;
 
             q7.escrevaQuestao();
             String resposta7 = q7.leiaResposta();
-            if (q7.isCorreta(resposta)) {
+            if (q7.isCorreta(resposta7.trim())) {
                 cont++;
             };
 
@@ -134,7 +134,7 @@ import java.util.Scanner;
 
             q8.escrevaQuestao();
             String resposta8 = q8.leiaResposta();
-            if (q8.isCorreta(resposta)) {
+            if (q8.isCorreta(resposta8.trim())) {
                 cont++;
             }
 
@@ -151,7 +151,7 @@ import java.util.Scanner;
 
             q9.escrevaQuestao();
             String resposta9 = q9.leiaResposta();
-            if (q9.isCorreta(resposta)) {
+            if (q9.isCorreta(resposta9.trim())) {
                 cont++;
             }
 
@@ -168,7 +168,7 @@ import java.util.Scanner;
 
             q10.escrevaQuestao();
             String resposta10 = q10.leiaResposta();
-            if (q10.isCorreta(resposta)) {
+            if (q10.isCorreta(resposta10.trim())) {
                 cont++;
             }
 
@@ -186,7 +186,7 @@ import java.util.Scanner;
 
             q11.escrevaQuestao();
             String resposta11 = q11.leiaResposta();
-            if (q11.isCorreta(resposta)) {
+            if (q11.isCorreta(resposta11.trim())) {
                 cont++;
             }
 
@@ -203,7 +203,7 @@ import java.util.Scanner;
 
             q12.escrevaQuestao();
             String resposta12 = q12.leiaResposta();
-            if (q12.isCorreta(resposta)) {
+            if (q12.isCorreta(resposta12.trim())) {
                 cont++;
             }
             //PROXIMA QUESTAO
@@ -215,11 +215,11 @@ import java.util.Scanner;
             q13.opcaoC = "C) Randall";
             q13.opcaoD = "D) Boo";
             q13.opcaoE = "E) Waternoose";
-            q13.correta = "B) Sulley";
+            q13.correta = "B";
 
             q13.escrevaQuestao();
             String resposta13 = q13.leiaResposta();
-            if (q13.isCorreta(resposta)) {
+            if (q13.isCorreta(resposta13.trim())) {
                 cont++;
             }
 
@@ -232,11 +232,11 @@ import java.util.Scanner;
             q14.opcaoC = "C) Filoctetes";
             q14.opcaoD = "D) Atena";
             q14.opcaoE = "E) Héracles";
-            q14.correta = "C) Filoctetes";
+            q14.correta = "C";
 
             q14.escrevaQuestao();
             String resposta14 = q14.leiaResposta();
-            if (q14.isCorreta(resposta)) {
+            if (q14.isCorreta(resposta14.trim())) {
                 cont++;
             }
 
@@ -249,11 +249,11 @@ import java.util.Scanner;
             q15.opcaoC = "C) Elsa";
             q15.opcaoD = "D) Anna";
             q15.opcaoE = "E) Bellwether";
-            q15.correta = "A) Judy Hopps";
+            q15.correta = "A";
 
             q15.escrevaQuestao();
             String resposta15 = q15.leiaResposta();
-            if (q15.isCorreta(resposta)) {
+            if (q15.isCorreta(resposta15.trim())) {
                 cont++;
             }
 
