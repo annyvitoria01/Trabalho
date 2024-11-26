@@ -5,7 +5,7 @@ import java.util.Scanner;
             Scanner scanner = new Scanner(System.in);
 
             Questao q1 = new Questao();
-            q1.pergunta = "Em qual filme da Disney vemos pela primeira vez o personagem Simba?";
+            q1.pergunta = "1) Em qual filme da Disney vemos pela primeira vez o personagem Simba?";
             q1.opcaoA = "A) A Bela e a Fera";
             q1.opcaoB = "B) O Rei Leão";
             q1.opcaoC = "C) Aladdin";
@@ -22,7 +22,7 @@ import java.util.Scanner;
             //proxima questao
 
             Questao q2 = new Questao();
-            q2.pergunta = "Qual é o nome do brinquedo cowboy no filme Toy Story?";
+            q2.pergunta = "2) Qual é o nome do brinquedo cowboy no filme Toy Story?";
             q2.opcaoA = "A) Buzz Lightyear";
             q2.opcaoB = "B) Slinky";
             q2.opcaoC = "C) Woody";
@@ -39,7 +39,7 @@ import java.util.Scanner;
             //proxima questao
 
             Questao q3 = new Questao();
-            q3.pergunta = "Qual é o nome do vilão em A Pequena Sereia?";
+            q3.pergunta = "3) Qual é o nome do vilão em A Pequena Sereia?";
             q3.opcaoA = "A) Jafar";
             q3.opcaoB = "B) Scar";
             q3.opcaoC = "C) Malévola";
@@ -56,7 +56,7 @@ import java.util.Scanner;
             //proxima questao
 
             Questao q4 = new Questao();
-            q4.pergunta = "Qual é o animal de estimação da princesa Jasmine em Aladdin?";
+            q4.pergunta = "4) Qual é o animal de estimação da princesa Jasmine em Aladdin?";
             q4.opcaoA = "A) Um macaco";
             q4.opcaoB = "B) Um papagaio";
             q4.opcaoC = "C) Um leão";
@@ -73,7 +73,7 @@ import java.util.Scanner;
             //proxima questao
 
             Questao q5 = new Questao();
-            q5.pergunta = "Em Frozen, qual é o nome da irmã de Elsa?";
+            q5.pergunta = "5) Em Frozen, qual é o nome da irmã de Elsa?";
             q5.opcaoA = "A) Anna";
             q5.opcaoB = "B) Ariel";
             q5.opcaoC = "C) Rapunzel";
@@ -90,7 +90,7 @@ import java.util.Scanner;
             //proxima questao
 
             Questao q6 = new Questao();
-            q6.pergunta = "Em Procurando Nemo, qual é o nome da peixe que tem perda de memória recente?";
+            q6.pergunta = "6) Em Procurando Nemo, qual é o nome da peixe que tem perda de memória recente?";
             q6.opcaoA = "A) Dory";
             q6.opcaoB = "B) Marlin";
             q6.opcaoC = "C) Crush";
@@ -107,7 +107,7 @@ import java.util.Scanner;
             //proxima quetao
 
             Questao q7 = new Questao();
-            q7.pergunta = "Qual é o nome do ratinho chefe em Ratatouille?";
+            q7.pergunta = "7) Qual é o nome do ratinho chefe em Ratatouille?";
             q7.opcaoA = "A) Linguini";
             q7.opcaoB = "B) Remy";
             q7.opcaoC = "C) Gusteau";
@@ -124,7 +124,7 @@ import java.util.Scanner;
             //PROXIMA QUESTAO
 
             Questao q8 = new Questao();
-            q8.pergunta = "Quem ajuda a Cinderela a ir ao baile?";
+            q8.pergunta = "8) Quem ajuda a Cinderela a ir ao baile?";
             q8.opcaoA = "A) As irmãs más";
             q8.opcaoB = "B) A madrasta";
             q8.opcaoC = "C) O príncipe";
@@ -141,7 +141,7 @@ import java.util.Scanner;
             //PROXIMA QUESTAO
 
             Questao q9 = new Questao();
-            q9.pergunta = "Qual é o nome do dragão em Mulan?";
+            q9.pergunta = "9) Qual é o nome do dragão em Mulan?";
             q9.opcaoA = "A) Smaug";
             q9.opcaoB = "B) Mushu";
             q9.opcaoC = "C) Elliot";
@@ -158,7 +158,7 @@ import java.util.Scanner;
             //PROXIMA QUESTAO
 
             Questao q10 = new Questao();
-            q10.pergunta = "Qual é o nome da princesa no filme A Bela Adormecida?";
+            q10.pergunta = "10) Qual é o nome da princesa no filme A Bela Adormecida?";
             q10.opcaoA = "A) Bela";
             q10.opcaoB = "B) Cinderela";
             q10.opcaoC = "C) Aurora";
@@ -175,7 +175,7 @@ import java.util.Scanner;
             //PROXIMA QUESTAO
 
             Questao q11 = new Questao();
-            q11.pergunta = "Em Aladdin, o que o gênio da lâmpada oferece a Aladdin?";
+            q11.pergunta = "11) Em Aladdin, o que o gênio da lâmpada oferece a Aladdin?";
             q11.opcaoA = "A) Três desejos";
             q11.opcaoB = "B) Um castelo";
             q11.opcaoC = "C) Um novo traje";
@@ -193,7 +193,7 @@ import java.util.Scanner;
             //PROXIMA QUESTAO
 
             Questao q12 = new Questao();
-            q12.pergunta = "Qual é o nome da princesa que dorme por 100 anos em A Bela Adormecida?";
+            q12.pergunta = "12) Qual é o nome da princesa que dorme por 100 anos em A Bela Adormecida?";
             q12.opcaoA = "A) Rapunzel";
             q12.opcaoB = "B) Ariel";
             q12.opcaoC = "C) Aurora";
@@ -209,7 +209,7 @@ import java.util.Scanner;
             //PROXIMA QUESTAO
 
             Questao q13 = new Questao();
-            q13.pergunta = "Em Monstros S.A., qual é o nome do personagem principal?";
+            q13.pergunta = "13) Em Monstros S.A., qual é o nome do personagem principal?";
             q13.opcaoA = "A) Mike";
             q13.opcaoB = "B) Sulley";
             q13.opcaoC = "C) Randall";
@@ -226,7 +226,7 @@ import java.util.Scanner;
             //PROXIMA QUESTAO
 
             Questao q14 = new Questao();
-            q14.pergunta = "Em Hércules, quem é o mentor de Hércules?";
+            q14.pergunta = "14) Em Hércules, quem é o mentor de Hércules?";
             q14.opcaoA = "A) Zeus";
             q14.opcaoB = "B) Hades";
             q14.opcaoC = "C) Filoctetes";
@@ -243,7 +243,7 @@ import java.util.Scanner;
             //PROXIMA QUESTAO
 
             Questao q15 = new Questao();
-            q15.pergunta = "Em Zootopia, qual é o nome da coelha policial?";
+            q15.pergunta = "15) Em Zootopia, qual é o nome da coelha policial?";
             q15.opcaoA = "A) Judy Hopps";
             q15.opcaoB = "B) Dory";
             q15.opcaoC = "C) Elsa";
