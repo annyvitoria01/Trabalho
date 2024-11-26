@@ -258,8 +258,8 @@ import java.util.Scanner;
             }
 
             double porcetagem= ((double)cont / 15.0) * 100;
-            System.out.println("voce acertou "+porcetagem+"%");
-            System.out.println("Você acertou"  +cont+"De 15 questões");
+            System.out.println("voce acertou "+ String.format("%.2f", porcetagem) +  "%");
+            System.out.println("Você acertou "  +cont+ " De 15 questões");
 
 
 
